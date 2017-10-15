@@ -1,0 +1,6 @@
+<ol>
+	<li ng-repeat="item in $ctrl.items">
+		<h3>{{item.name}} ({{item.price_large}}{{item.price_small? (" (L) / " + item.price_small + " (S)"):null}})</h3>
+		<p style="font-style: italic;">{{item.description}}</p>
+	</li>
+</ol>
